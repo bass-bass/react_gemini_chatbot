@@ -14,7 +14,8 @@ const MessageParser: React.FC<MessageParserProps> = ({ children, actions }) => {
         } else if (lowerCaseMessage.includes("help")) {
             actions.handleQuestion();
         } else {
-            console.log("未対応のメッセージです:", message);
+            actions.chat(lowerCaseMessage);
+            //console.log("未対応のメッセージです:", message);
         }
     };
 

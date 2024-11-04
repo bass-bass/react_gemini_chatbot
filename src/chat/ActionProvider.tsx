@@ -10,7 +10,7 @@ type ActionProviderProps = {
   children: ReactNode;
 };
 
-export const ActionProvider: React.FC<ActionProviderProps> = ({ createChatBotMessage, setState, children }) => {
+const ActionProvider: React.FC<ActionProviderProps> = ({ createChatBotMessage, setState, children }) => {
   const greet = () => {
     const message = createChatBotMessage("こんにちは！何かお手伝いできますか？");
     setState((prevState) => ({
@@ -59,3 +59,5 @@ export const ActionProvider: React.FC<ActionProviderProps> = ({ createChatBotMes
     </div>
   );
 };
+
+export default ActionProvider;

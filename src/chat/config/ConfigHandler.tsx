@@ -16,8 +16,6 @@ export const createConfig = (prop: ConfigProps) => {
   customComponents: {
     header: () => <CustomHeader onClick={prop.onclick}/>,
     botAvatar: () => <CustomBotAvator imgSrc={prop.imgSrc} />,
-    state: { messages: prop.messages },
-    saveMessages: prop.saveMessages,
   },
   customStyles: {
     botMessageBox: {

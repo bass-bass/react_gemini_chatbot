@@ -1,18 +1,16 @@
 import React from 'react';
-import ChatBotHandler from './chat/ChatBotHandler';
 
 import 'react-chatbot-kit/build/main.css';
 import './App.css';
+import Sample from './pages/Sample';
 
 function App() {
 
   return (
     <div className="App">
-      <h1>sample</h1>
-      <ChatBotHandler />
+      <Sample />
     </div>
   );
 }
 
 export default App;
-

@@ -18,3 +18,7 @@ https://ai.google.dev/gemini-api/docs?hl=ja
 6. `npm install`
 7. `npm start`
 8. access `http://localhost:3000`
+
+## example
+<img width="319" alt="スクリーンショット 2024-11-04 19 52 59" src="https://github.com/user-attachments/assets/2dde3355-756f-4ebc-a6e7-ed88e0c6b62d">
+<img width="315" alt="スクリーンショット 2024-11-04 19 55 52" src="https://github.com/user-attachments/assets/a56f0a50-134b-4050-a1e3-f805b3d3595a">
